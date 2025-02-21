@@ -52,4 +52,5 @@ const pessoa_fisica = { cpf: 111, ...pessoa };
 
 const lista = [];
 lista.push("uva");
-const achou = lista.find((item) => item === "uva"); swd
+const achou = lista.find((item) => item === "uva");
+swd;
