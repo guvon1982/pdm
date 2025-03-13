@@ -2,7 +2,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 function GaleriaScreen() {
   return (
-    <View style={styles.grid}>
+    <View style={{ flex: 1 }}>
       <View style={styles.photo}>
         <Text>Foto 1</Text>
       </View>
@@ -29,16 +29,9 @@ function GaleriaScreen() {
 }
 
 const styles = StyleSheet.create({
-   grid:{
-    flex: 1,
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-   },
-
   photo: {
     height: 100,
-    width: "31%",
+    width: 100,
     borderWidth: 1,
     alignItems: "center",
     justifyContent: "center",
